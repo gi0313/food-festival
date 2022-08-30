@@ -10,7 +10,7 @@ const config = {
         tickets: './assets/js/tickets.js'
     },
     output: {
-      path: path.join(__dirname + "/dist"), //should be changed
+      path: path.join(__dirname + "/dist"),
       filename: "[name].bundle.js"
 },
 module: {
